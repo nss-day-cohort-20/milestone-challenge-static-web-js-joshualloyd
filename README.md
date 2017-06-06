@@ -1,4 +1,3 @@
-Here's the JS README.
 # The Static Web: JavaScript Milestone Challenge
 
 ## Setup
