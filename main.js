@@ -20,7 +20,7 @@ function enterKeyHandler() {
 			//console.log("here's your options object", optObj);
 			tree(optObj);
 		}
-	} 
+	}
 }
 
 function buttonPressHandler() {
@@ -29,7 +29,7 @@ function buttonPressHandler() {
 		let optsObj = createOptionsObject();
 		//console.log("here's your options object", optsObj)
 		tree(optsObj);
-	} 
+	}
 }
 
 function inputsGood() {
@@ -45,10 +45,10 @@ function inputsGood() {
 }
 
 function createOptionsObject() {
-		let optionsObj = {};	
-		optionsObj.char = charInput.value;
-		optionsObj.height = Number(heightInput.value);
-		return optionsObj;
+	let optionsObj = {};
+	optionsObj.char = charInput.value;
+	optionsObj.height = Number(heightInput.value);
+	return optionsObj;
 }
 
 function tree(options) {
