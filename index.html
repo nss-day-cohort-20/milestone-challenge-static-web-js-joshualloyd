@@ -4,10 +4,16 @@
 	<title>Grow Your Tree</title>
 </head>
 <body>
-	<label>Pick a character to build your tree with</label>
-	<input type="text" name="tree-char" id="tree-char">
-	<label>How tall do you want your tree?</label>
-	<input type="text" name="tree-height" id="tree-height">
+	<div>
+		<label for="tree-height">Tree Height</label>
+		<br>
+		<input type="text" name="tree-height" id="tree-height" style="width: 40%" placeholder="How tall should the tree be?">
+	</div>
+	<div>
+		<label for="tree-char">Tree Character</label>
+		<br>
+		<input type="text" name="tree-char" id="tree-char" style="width: 40%" placeholder="Which character should be used?">
+	</div>
 	<button id="tree-button">Grow your tree</button>
 
 	<script src="main.js"></script>
